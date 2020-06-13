@@ -1,0 +1,643 @@
+fileFormatVersion: 2
+guid: 179b89b1b134ebe4bb73957da17e9203
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3113604593968504801
+    second: treeGuyGreen2_0
+  - first:
+      213: -5115076418216346082
+    second: treeGuyGreen2_1
+  - first:
+      213: -1489990532599904293
+    second: treeGuyGreen2_2
+  - first:
+      213: 5926361329480767932
+    second: treeGuyGreen2_3
+  - first:
+      213: 1030390076430082110
+    second: treeGuyGreen2_4
+  - first:
+      213: 4151884575763476813
+    second: treeGuyGreen2_5
+  - first:
+      213: -2120985901949931155
+    second: treeGuyGreen2_6
+  - first:
+      213: -1079531859173490739
+    second: treeGuyGreen2_7
+  - first:
+      213: -5165720452346176274
+    second: treeGuyGreen2_8
+  - first:
+      213: -5309319160962875608
+    second: treeGuyGreen2_9
+  - first:
+      213: -8379942412224054396
+    second: treeGuyGreen2_10
+  - first:
+      213: 5282323360941272049
+    second: treeGuyGreen2_11
+  - first:
+      213: 3200037573092424663
+    second: treeGuyGreen2_12
+  - first:
+      213: 1074606602042771579
+    second: treeGuyGreen2_13
+  - first:
+      213: 6846801333813910957
+    second: treeGuyGreen2_14
+  - first:
+      213: -7752068939882731039
+    second: treeGuyGreen2_15
+  - first:
+      213: -909013729569948254
+    second: treeGuyGreen2_16
+  - first:
+      213: -4315390063939005004
+    second: treeGuyGreen2_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: treeGuyGreen2_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 220
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: R_LowerArm
+        position: {x: 6.22479, y: 30.824661, z: 0}
+        rotation: {x: 0, y: 0, z: -0.7121392, w: 0.7020383}
+        length: 26.445066
+        parentId: -1
+      spriteID: 1ef5482b1eeb53b20800000000000000
+      internalID: 3113604593968504801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treeGuyGreen2_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 220
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: L_LowerArm
+        position: {x: 5.778425, y: 31.202408, z: 0}
+        rotation: {x: 0, y: 0, z: -0.70217973, w: 0.71199983}
+        length: 27.200495
+        parentId: -1
+      spriteID: e1ebc3539199309b0800000000000000
+      internalID: -5115076418216346082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treeGuyGreen2_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 175
+        width: 66
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: body
+        position: {x: 32.737488, y: 18.16153, z: 0}
+        rotation: {x: 0, y: 0, z: 0.7171331, w: 0.69693625}
+        length: 52.906326
+        parentId: -1
+      spriteID: bd700b1418d725be0800000000000000
+      internalID: -1489990532599904293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treeGuyGreen2_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 227
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: L_Arm
+        position: {x: 6.2374725, y: 7.581482, z: 0}
+        rotation: {x: 0, y: 0, z: -0.018508857, w: 0.9998287}
+        length: 30.618572
+        parentId: -1
+      spriteID: cb9105eda3aae3250800000000000000
+      internalID: 5926361329480767932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treeGuyGreen2_4
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 197
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: L_Leaves
+        position: {x: 17.03598, y: 25.248138, z: 0}
+        rotation: {x: 0, y: 0, z: 0.8267911, w: 0.5625091}
+        length: 15.432298
+        parentId: -1
+      spriteID: e30e3b5b05eac4e00800000000000000
+      internalID: 1030390076430082110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treeGuyGreen2_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 170
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: R_Hand
+        position: {x: 16.445978, y: 25.673416, z: 0}
+        rotation: {x: 0, y: 0, z: -0.7406417, w: 0.6719003}
+        length: 15.561202
+        parentId: -1
+      spriteID: d413ec626057e9930800000000000000
+      internalID: 4151884575763476813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treeGuyGreen2_6
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 83
+        width: 33
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: head
+        position: {x: 18.019318, y: 16.102226, z: 0}
+        rotation: {x: 0, y: 0, z: 0.7111129, w: 0.7030779}
+        length: 66.48797
+        parentId: -1
+      spriteID: d61b9a44f8eb092e0800000000000000
+      internalID: -2120985901949931155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treeGuyGreen2_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 142
+        width: 43
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: R_Arm
+        position: {x: 36.0669, y: 12.498871, z: 0}
+        rotation: {x: 0, y: 0, z: -0.99488765, w: 0.10098828}
+        length: 30.077864
+        parentId: -1
+      spriteID: dcf3f326e7bb401f0800000000000000
+      internalID: -1079531859173490739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treeGuyGreen2_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 109
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: R_Leaves
+        position: {x: 14.513641, y: 24.855057, z: 0}
+        rotation: {x: 0, y: 0, z: 0.5934294, w: 0.80488604}
+        length: 16.608044
+        parentId: -1
+      spriteID: eec9fe42e9caf48b0800000000000000
+      internalID: -5165720452346176274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treeGuyGreen2_9
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 154
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: neck
+        position: {x: 5.0373077, y: 4.4086914, z: 0}
+        rotation: {x: 0, y: 0, z: -0.014701239, w: 0.99989194}
+        length: 12.849
+        parentId: -1
+      spriteID: 82ff1a36a528156b0800000000000000
+      internalID: -5309319160962875608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treeGuyGreen2_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 77
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: R_Leg
+        position: {x: 17.84571, y: 33.30233, z: 0}
+        rotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+        length: 28.708858
+        parentId: -1
+      spriteID: 48bb72166c674bb80800000000000000
+      internalID: -8379942412224054396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treeGuyGreen2_11
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 103
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: L_Hand
+        position: {x: 19.546967, y: 25.944336, z: 0}
+        rotation: {x: 0, y: 0, z: -0.7174256, w: 0.6966352}
+        length: 12.849
+        parentId: -1
+      spriteID: 1fbe6ad1c159e4940800000000000000
+      internalID: 5282323360941272049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treeGuyGreen2_12
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 90
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: R_eye
+        position: {x: 3.0646973, y: 2.6540756, z: 0}
+        rotation: {x: 0, y: 0, z: 0.6943735, w: 0.7196148}
+        length: 3.6514888
+        parentId: -1
+      - name: L_eye
+        position: {x: 10.753998, y: 2.3934174, z: 0}
+        rotation: {x: 0, y: 0, z: 0.7216735, w: 0.6922336}
+        length: 3.1305668
+        parentId: -1
+      spriteID: 7dbb31cd731d86c20800000000000000
+      internalID: 3200037573092424663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treeGuyGreen2_13
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 53
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: L_Leg
+        position: {x: 6.050934, y: 33.881943, z: 0}
+        rotation: {x: 0, y: 0, z: -0.66422915, w: 0.74752903}
+        length: 28.909464
+        parentId: -1
+      spriteID: b788c04d205c9ee00800000000000000
+      internalID: 1074606602042771579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treeGuyGreen2_14
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 45
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: R_LowerLeg
+        position: {x: 8.620533, y: 38.104454, z: 0}
+        rotation: {x: 0, y: 0, z: -0.72298265, w: 0.6908663}
+        length: 33.276157
+        parentId: -1
+      spriteID: dad16a58989b40f50800000000000000
+      internalID: 6846801333813910957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treeGuyGreen2_15
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 4
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: L_LowerLeg
+        position: {x: 8.07692, y: 38.6854, z: 0}
+        rotation: {x: 0, y: 0, z: -0.71527964, w: 0.69883835}
+        length: 32.495132
+        parentId: -1
+      spriteID: 1e963f31f5e1b6490800000000000000
+      internalID: -7752068939882731039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treeGuyGreen2_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: R_Foot
+        position: {x: 25.400677, y: 18.642756, z: 0}
+        rotation: {x: 0, y: 0, z: -0.40965602, w: 0.9122401}
+        length: 18.194763
+        parentId: -1
+      spriteID: 2adb70144d88263f0800000000000000
+      internalID: -909013729569948254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treeGuyGreen2_17
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: L_Foot
+        position: {x: 24.99562, y: 17.88726, z: 0}
+        rotation: {x: 0, y: 0, z: -0.44721362, w: 0.8944272}
+        length: 15.109929
+        parentId: -1
+      spriteID: 4b55aabc997ac14c0800000000000000
+      internalID: -4315390063939005004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
