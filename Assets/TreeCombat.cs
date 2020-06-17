@@ -7,6 +7,8 @@ public class TreeCombat : MonoBehaviour
     public Animator animator;
     public GameObject treeBullet;
     public Transform staffPosition;
+    public float bulletSpeed;
+    public float bulletDuration;
 
     private Vector3 mousePos;
     private Vector2 shootDir;
@@ -34,7 +36,7 @@ public class TreeCombat : MonoBehaviour
         shootDir = Camera.main.ScreenToWorldPoint(mousePos) - staffPosition.position;
         lookAngle = Mathf.Atan2(shootDir.y, shootDir.x) * Mathf.Rad2Deg;
         instBody.rotation = lookAngle;
-        instBody.velocity = shootDir.normalized * 20;
-        Destroy(instBullet, 2);
+        instBody.velocity = shootDir.normalized * bulletSpeed;
+        Destroy(instBullet, bulletDuration);
     }
 }

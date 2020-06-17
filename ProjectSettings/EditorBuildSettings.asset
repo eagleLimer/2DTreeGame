@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/wowsers.unity
+    guid: 45025b50388843c42aa80c33b1364ada
+  - enabled: 1
     path: Assets/Scenes/level1.unity
     guid: 5a0a4ddc00563bd47972b981f06b96a7
   - enabled: 1

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bulletScript : MonoBehaviour
+public class BulletScript : MonoBehaviour
 {
     public LayerMask layerMask;
     public string targetTag;
@@ -22,7 +22,7 @@ public class bulletScript : MonoBehaviour
         if(collision.tag == targetTag && Time.time - dealtDamageTime > damageCd)
         {
             dealtDamageTime = Time.time;
-            collision.GetComponent<HealthSystem>().TakeDamage(damage);
+            collision.GetComponent<IHealthSystem>().TakeDamage(damage);
         }
     }
 

@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 9233df173950e5a41afb430f28eebc53
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8246667867080346958
+    second: Mino_R_leg
+  - first:
+      213: 36524854860268740
+    second: Mino_R_hand
+  - first:
+      213: 3758332417268142337
+    second: Mino_L_leg
+  - first:
+      213: 1668176261285703105
+    second: Mino_body
+  - first:
+      213: -1716317981529839008
+    second: Mino_hammer
+  - first:
+      213: 4090917720072086862
+    second: Mino_R_calf
+  - first:
+      213: 5446047083892879153
+    second: Mino_R_arm
+  - first:
+      213: -3919143765794732822
+    second: Mino_L_calf
+  - first:
+      213: -3552431456118062820
+    second: Mino_R_foot
+  - first:
+      213: -8428510306624044474
+    second: Mino_R_lowerArm
+  - first:
+      213: 6465746198728900585
+    second: Mino_L_foot
+  - first:
+      213: 2831637366395813624
+    second: Mino_head
+  - first:
+      213: 8724469584122726347
+    second: Mino_L_arm
+  - first:
+      213: -988757771501426313
+    second: Mino_L_lowerArm
+  - first:
+      213: 7684650937010769090
+    second: Mino_L_hand
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mino_R_leg
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 378
+        width: 73
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5931434, y: 0.8805898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: R_leg
+        position: {x: 41.94998, y: 115.60373, z: 0}
+        rotation: {x: 0, y: 0, z: -0.7614752, w: 0.6481941}
+        length: 104.08318
+        parentId: -1
+      spriteID: e4dc3fd7bbc027270800000000000000
+      internalID: 8246667867080346958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mino_R_hand
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 443
+        width: 59
+        height: 60
+      alignment: 9
+      pivot: {x: 0.65366054, y: 0.8022003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: R_hand
+        position: {x: 40.321106, y: 49.848236, z: 0}
+        rotation: {x: 0, y: 0, z: -0.7451281, w: 0.6669214}
+        length: 41.047874
+        parentId: -1
+      spriteID: 4c44b677923c18000800000000000000
+      internalID: 36524854860268740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mino_L_leg
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 378
+        width: 73
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5413971, y: 0.8465074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: L_leg
+        position: {x: 44.18123, y: 120.89221, z: 0}
+        rotation: {x: 0, y: 0, z: -0.75514394, w: 0.65555906}
+        length: 112.93347
+        parentId: -1
+      spriteID: 1015a17cb67482430800000000000000
+      internalID: 3758332417268142337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mino_body
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 265
+        width: 115
+        height: 245
+      alignment: 9
+      pivot: {x: 0.5722651, y: 0.4105743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: body
+        position: {x: 70.86017, y: 82.79288, z: 0}
+        rotation: {x: 0, y: 0, z: 0.7178979, w: 0.6961484}
+        length: 147.39156
+        parentId: -1
+      spriteID: 1cd6ca4a87d862710800000000000000
+      internalID: 1668176261285703105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mino_hammer
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 19
+        width: 99
+        height: 491
+      alignment: 9
+      pivot: {x: 0.9044581, y: 0.24919374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a6c45a3e96e28e0800000000000000
+      internalID: -1716317981529839008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mino_R_calf
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 281
+        width: 56
+        height: 84
+      alignment: 9
+      pivot: {x: 0.47301787, y: 0.85076725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: R_calf
+        position: {x: 23.818064, y: 71.32587, z: 0}
+        rotation: {x: 0, y: 0, z: -0.6105353, w: 0.791989}
+        length: 59.372627
+        parentId: -1
+      spriteID: e456f36edfbd5c830800000000000000
+      internalID: 4090917720072086862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mino_R_arm
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 295
+        width: 69
+        height: 130
+      alignment: 9
+      pivot: {x: 0.31386378, y: 0.7615192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: R_arm
+        position: {x: 24.433685, y: 100.38916, z: 0}
+        rotation: {x: 0, y: 0, z: -0.6442411, w: 0.7648225}
+        length: 88.93066
+        parentId: -1
+      spriteID: 13fac79e7fe349b40800000000000000
+      internalID: 5446047083892879153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mino_L_calf
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 280
+        width: 56
+        height: 84
+      alignment: 9
+      pivot: {x: 0.44603592, y: 0.8417733}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: L_calf
+        position: {x: 24.870758, y: 70.05936, z: 0}
+        rotation: {x: 0, y: 0, z: -0.60566676, w: 0.79571843}
+        length: 59.56935
+        parentId: -1
+      spriteID: ae44e1072876c99c0800000000000000
+      internalID: -3919143765794732822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mino_R_foot
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 206
+        width: 38
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5795259, y: 0.83577716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: R_foot
+        position: {x: 23.062567, y: 53.39978, z: 0}
+        rotation: {x: 0, y: 0, z: -0.7667434, w: 0.64195377}
+        length: 42.97707
+        parentId: -1
+      spriteID: c11c829896a33bec0800000000000000
+      internalID: -3552431456118062820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mino_R_lowerArm
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 192
+        width: 44
+        height: 91
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.87359786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: R_lowerArm
+        position: {x: 20.900703, y: 79.48773, z: 0}
+        rotation: {x: 0, y: 0, z: -0.7340108, w: 0.67913777}
+        length: 68.20006
+        parentId: -1
+      spriteID: 64284f3488ae70b80800000000000000
+      internalID: -8428510306624044474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mino_L_foot
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 207
+        width: 38
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5397636, y: 0.84776914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: L_foot
+        position: {x: 24.650894, y: 53.155273, z: 0}
+        rotation: {x: 0, y: 0, z: -0.756287, w: 0.65424}
+        length: 41.989582
+        parentId: -1
+      spriteID: 9ef711729e1fab950800000000000000
+      internalID: 6465746198728900585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mino_head
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 2
+        width: 179
+        height: 210
+      alignment: 9
+      pivot: {x: 0.45779386, y: 0.41365778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: head
+        position: {x: 85.59631, y: 88.92403, z: 0}
+        rotation: {x: 0, y: 0, z: 0.8009424, w: 0.5987414}
+        length: 48.049824
+        parentId: -1
+      spriteID: 8febebc9e2ffb4720800000000000000
+      internalID: 2831637366395813624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mino_L_arm
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 65
+        width: 69
+        height: 130
+      alignment: 9
+      pivot: {x: 0.30291396, y: 0.7673299}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: L_arm
+        position: {x: 22.329056, y: 100.7182, z: 0}
+        rotation: {x: 0, y: 0, z: -0.6284581, w: 0.7778435}
+        length: 93.501686
+        parentId: -1
+      spriteID: bc7c55fccda831970800000000000000
+      internalID: 8724469584122726347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mino_L_lowerArm
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 76
+        width: 44
+        height: 91
+      alignment: 9
+      pivot: {x: 0.5171705, y: 0.87359786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: L_lowerArm
+        position: {x: 21.14521, y: 80.65224, z: 0}
+        rotation: {x: 0, y: 0, z: -0.7292806, w: 0.68421483}
+        length: 71.161194
+        parentId: -1
+      spriteID: 77920c4ab0a3742f0800000000000000
+      internalID: -988757771501426313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mino_L_hand
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2
+        width: 42
+        height: 60
+      alignment: 9
+      pivot: {x: 0.64390403, y: 0.8273826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: L_hand
+        position: {x: 29.210464, y: 48.887737, z: 0}
+        rotation: {x: 0, y: 0, z: -0.7890927, w: 0.6142742}
+        length: 35.85356
+        parentId: -1
+      spriteID: 2cc466bef4d55aa60800000000000000
+      internalID: 7684650937010769090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

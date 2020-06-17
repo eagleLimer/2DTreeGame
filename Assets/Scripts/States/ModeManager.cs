@@ -1,22 +1,40 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ModeManager : MonoBehaviour
 {
-    public Mode startMode;
-    private Stack<Mode> modes;
+    public AbstractMode startMode;
+    public Animator animator;
+    public AbstractMode currentMode;
+    private Stack<AbstractMode> modeStack;
+    //public List<AbstractMode> modes;
     // Start is called before the first frame update
     void Start()
     {
-        modes.Push(startMode);
+        modeStack = new Stack<AbstractMode>();
+        modeStack.Push(startMode);
+        currentMode = startMode;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PushMode(AbstractMode mode)
     {
-        modes.Peek().Update();
+        if (mode.interruptPriority > modeStack.Peek().priority)
+        {
+            mode.enabled = true;
+            modeStack.Peek().enabled = false;
+            modeStack.Push(mode);
+            currentMode = mode;
+        }
     }
-    // no need to update the top of the stack as it has a update that updates automatically
-    // instead, have all elements in the stack except the top as mode.SetActive(false);
+    public void PopMode()
+    {
+        modeStack.Pop();
+        if (modeStack.Count > 0)
+        {
+            modeStack.Peek().enabled = true;
+            currentMode = modeStack.Peek();
+        }
+    }
 }

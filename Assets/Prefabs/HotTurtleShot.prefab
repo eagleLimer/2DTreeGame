@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 2048
   targetTag: Player
   damage: 20
   damageCd: 0.3

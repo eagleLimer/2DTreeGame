@@ -283,3 +283,15 @@ MonoBehaviour:
       m_Hash: 1120914852
       m_Sprite: {fileID: 5274272657771236378, guid: 480fc31d05885f74590d09477a31e77f,
         type: 3}
+  - m_Name: Staff
+    m_Hash: -2085626730
+    m_CategoryList:
+    - m_Name: dark
+      m_Hash: 461159931
+      m_Sprite: {fileID: 21300000, guid: 15dbf7beed705164aa29235d86a97582, type: 3}
+    - m_Name: green
+      m_Hash: -795152863
+      m_Sprite: {fileID: 21300000, guid: 82d759ee7fc9b5b4d8e79c6fc6fce7cf, type: 3}
+    - m_Name: white
+      m_Hash: 1120914852
+      m_Sprite: {fileID: 21300000, guid: 8dec18b112209024d81f8a927b4e69e3, type: 3}
