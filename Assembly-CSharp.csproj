@@ -66,6 +66,7 @@
     <Compile Include="Assets\AnimatedTile\AnimatedTile.cs" />
     <Compile Include="Assets\AudioManager.cs" />
     <Compile Include="Assets\PortalScript.cs" />
+    <Compile Include="Assets\Scripts\AbstractAction.cs" />
     <Compile Include="Assets\Scripts\BulletScript.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Assets\Scripts\States\ModeManager.cs" />
     <Compile Include="Assets\Scripts\States\Movement.cs" />
     <Compile Include="Assets\Scripts\States\hotTurtleCombat.cs" />
+    <Compile Include="Assets\Scripts\minoParticleScript.cs" />
     <Compile Include="Assets\Scripts\playerParticles.cs" />
     <Compile Include="Assets\Sound.cs" />
     <Compile Include="Assets\SwitchPart.cs" />

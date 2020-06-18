@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7779322110772325702}
   - component: {fileID: 7779322110772325701}
-  m_Layer: 12
+  m_Layer: 14
   m_Name: treeDarkBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 7779322111366803343}
   - component: {fileID: -1985304487871507296}
   - component: {fileID: 4696281455008853095}
-  m_Layer: 12
+  m_Layer: 14
   m_Name: treeBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}

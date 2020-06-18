@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HitMode : AbstractMode
+public class HitMode : AbstractAction
 {
     public float hitDuration;
     private float hitFinishedTime;
@@ -30,7 +30,7 @@ public class HitMode : AbstractMode
         }
         else
         {
-            modeManager.PopMode();
+            modeManager.StopAction();
         }
     }
 }

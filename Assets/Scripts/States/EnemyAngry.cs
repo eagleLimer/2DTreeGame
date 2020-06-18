@@ -21,7 +21,11 @@ public class EnemyAngry : AbstractMode
     // Update is called once per frame
     void Update()
     {
-        if (!((transform.position - target.position).magnitude < stopChaseDistance))
+        if ((transform.position - target.position).magnitude < stopChaseDistance && modeManager.currentAction == null)
+        {
+            
+        }
+        else
         {
             if (target.position.x < transform.position.x)
             {

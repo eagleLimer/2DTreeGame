@@ -19,7 +19,7 @@ public class BulletScript : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == targetTag && Time.time - dealtDamageTime > damageCd)
+        if (collision.tag == targetTag && Time.time - dealtDamageTime > damageCd)
         {
             dealtDamageTime = Time.time;
             collision.GetComponent<IHealthSystem>().TakeDamage(damage);

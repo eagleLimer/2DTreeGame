@@ -25,7 +25,7 @@ public class EnemyHealth : MonoBehaviour, IHealthSystem
         }
         else
         {
-            modeManager.PushMode(hitMode);
+            modeManager.NewAction(hitMode);
         }
         if (health <= 0)
         {
