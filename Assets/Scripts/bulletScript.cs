@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class BulletScript : MonoBehaviour
 {
-    public LayerMask layerMask;
     public string targetTag;
     public float damage;
     public float damageCd = 0f;
     private float dealtDamageTime = 0;
     public float deathTime = 0.1f;
+    [SerializeField] protected SoundManager.Sound deathSound;
 
     public GameObject bulletDeathPrefab;
 
@@ -23,18 +23,18 @@ public class BulletScript : MonoBehaviour
         {
             dealtDamageTime = Time.time;
             collision.GetComponent<IHealthSystem>().TakeDamage(damage);
+            Die();
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        GameObject bulletDeath = Instantiate(bulletDeathPrefab, transform.position, Quaternion.identity) as GameObject;
-        Destroy(bulletDeath, 0.5f);
-        Destroy(gameObject);
+        Die();
     }
     public void Die()
     {
         GameObject bulletDeath = Instantiate(bulletDeathPrefab, transform.position, Quaternion.identity) as GameObject;
+        SoundManager.PlaySound(deathSound, transform.position);
         Destroy(bulletDeath, 0.5f);
         Destroy(gameObject);
     }

@@ -7,7 +7,8 @@ public class EnemyAngry : AbstractMode
     private Transform target;
     public Movement movement;
     public float stopChaseDistance;
-    private float facingRight = -1;
+    public AbstractAction enableAction;
+    public AbstractAction[] meleeMoves;
     public void SetTarget(Transform newTarget)
     {
         target = newTarget;
@@ -17,31 +18,49 @@ public class EnemyAngry : AbstractMode
     {
         
     }
+    private void OnEnable()
+    {
+        modeManager.NewAction(enableAction);
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if ((transform.position - target.position).magnitude < stopChaseDistance && modeManager.currentAction == null)
+        if (modeManager.currentAction == null)
         {
-            
-        }
-        else
-        {
-            if (target.position.x < transform.position.x)
+            //print("noAction!");
+            modeManager.animator.SetBool("walking", true);
+            if ((transform.position - target.position).magnitude < stopChaseDistance && modeManager.currentAction == null)
             {
-                movement.MoveLeft();
+                modeManager.NewAction(GetRandomAction(meleeMoves));
+                //print("started new attack");
             }
             else
             {
-                movement.MoveRight();
+                if (target.position.x < transform.position.x && movement.currentXDir == 1)
+                {
+                    movement.Flip();
+                }
+                else if (target.position.x > transform.position.x && movement.currentXDir == -1)
+                {
+                    movement.Flip();
+                }
+                if (movement.currentXDir == 1)
+                {
+                    movement.MoveRight();
+                }
+                else
+                {
+                    movement.MoveLeft();
+                }
             }
         }
+        else
+        {
+            modeManager.animator.SetBool("walking", false);
+            
+        }
+
     }
-    void Flip()
-    {
-        facingRight = facingRight * -1;
-        Vector3 scaler = transform.localScale;
-        scaler.x *= -1;
-        transform.localScale = scaler;
-    }
+    
 }

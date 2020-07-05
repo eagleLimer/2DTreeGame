@@ -55,9 +55,21 @@ public class ModeManager : MonoBehaviour
             }
         }
     }
+
+    public bool CanMove()
+    {
+        if (currentAction == null)
+        {
+            return true;
+        }
+        return currentAction.canMove;
+    }
     public void StopAction()
     {
-        currentAction.enabled = false;
-        currentAction = null;
+        if (currentAction != null)
+        {
+            currentAction.enabled = false;
+            currentAction = null;
+        }
     }
 }

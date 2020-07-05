@@ -5,12 +5,11 @@ using UnityEngine;
 
 public class HitMode : AbstractAction
 {
-    public float hitDuration;
+    [SerializeField] private float hitDuration;
     private float hitFinishedTime;
     private bool postpone = false;
     private void OnEnable()
     {
-        //this might screw things up as it might pop the wrong mode if for example another invoke is currently waiting to push another mode. A fix would be to specify what mode is to be popped.
         Invoke("Finished", hitDuration);
         modeManager.animator.SetTrigger("hit");
     }
@@ -30,7 +29,11 @@ public class HitMode : AbstractAction
         }
         else
         {
-            modeManager.StopAction();
+            //maybe change this to check if modemanager.currentAction = this
+            if (enabled)
+            {
+                modeManager.StopAction();
+            }
         }
     }
 }

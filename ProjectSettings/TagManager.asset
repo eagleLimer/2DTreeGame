@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - EnemyProjectile
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -22,8 +24,8 @@ TagManager:
   - EnemyProjectile
   - PlayerProjectile
   - OnlyGroundCollision
-  - 
-  - 
+  - Cling
+  - ParticleCollider
   - 
   - 
   - 
@@ -51,9 +53,12 @@ TagManager:
   - name: Player
     uniqueID: 3283947175
     locked: 0
+  - name: Enemies
+    uniqueID: 3318189245
+    locked: 0
   - name: Foreground
     uniqueID: 432260357
     locked: 0
-  - name: Enemies
-    uniqueID: 3318189245
+  - name: UI
+    uniqueID: 1239096867
     locked: 0

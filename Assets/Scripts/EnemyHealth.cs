@@ -6,12 +6,16 @@ public class EnemyHealth : MonoBehaviour, IHealthSystem
 {
     public float maxHealth;
     public float hitAnimationMin;
-    public HitMode hitMode;
-    public ModeManager modeManager;
+    private HitMode hitMode;
+    private AbstractAction deathAction;
+    private ModeManager modeManager;
     private float health;
     // Start is called before the first frame update
     void Start()
     {
+        hitMode = GetComponent<HitMode>();
+        deathAction = GetComponent<DeathAction>();
+        modeManager = GetComponent<ModeManager>();
         health = maxHealth;
     }
 
@@ -29,14 +33,18 @@ public class EnemyHealth : MonoBehaviour, IHealthSystem
         }
         if (health <= 0)
         {
-            Destroy(gameObject, 1);
             Die();
         }
+    }
+    public void KnockBack(Vector3 dir, float force)
+    {
+        
     }
 
     public void Die()
     {
-        //animator.SetBool("dead", true);
+        modeManager.NewAction(deathAction);
+        //animator.SetTrigger("dead");
     }
     public void Heal(float heal)
     {
@@ -45,5 +53,10 @@ public class EnemyHealth : MonoBehaviour, IHealthSystem
         {
             health = maxHealth;
         }
+    }
+
+    public float getHealthPercentage()
+    {
+        return health / maxHealth;
     }
 }

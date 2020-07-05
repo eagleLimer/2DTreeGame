@@ -1,11 +1,19 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AbstractAction : MonoBehaviour
+[Serializable]
+public abstract class AbstractAction : MonoBehaviour
 {
     public float priority;
     public float interruptPriority;
-    public float duration;
-    public ModeManager modeManager;
+    public bool canMove;
+    //public float duration;
+    [NonSerialized] public ModeManager modeManager;
+
+    private void Awake()
+    {
+        modeManager = gameObject.GetComponent<ModeManager>();
+    }
 }

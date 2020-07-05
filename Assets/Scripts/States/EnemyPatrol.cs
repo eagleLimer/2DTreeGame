@@ -7,10 +7,12 @@ public class EnemyPatrol : AbstractMode
     public Transform eyePoint;
     public float viewRange;
     public LayerMask targetLayer;
+    public LayerMask groundLayer;
     public Movement movement;
     public bool movingRight = false;
     private float changeDirTimer = 0;
     public float changeDirTime;
+    public bool chilling = false;
 
     public EnemyAngry enemyAngry;
 
@@ -26,28 +28,55 @@ public class EnemyPatrol : AbstractMode
     // Update is called once per frame
     void Update()
     {
+        AvoidWall();
         SpotTarget();
-
-        if (movingRight)
+        if (!chilling)
         {
-            movement.MoveRight();
+            if (movingRight)
+            {
+                movement.MoveRight();
+            }
+            else
+            {
+                movement.MoveLeft();
+            }
         }
-        else
-        {
-            movement.MoveLeft();
-        }
-        
         if (Time.time >= changeDirTimer)
         {
-            movingRight = !movingRight;
-            changeDirTimer = Time.time + Random.Range(changeDirTime * 0.3f, changeDirTime * 2);
-            Flip();
+            if (!chilling)
+            {
+                chilling = true;
+                modeManager.animator.SetBool("walking", false);
+                changeDirTimer = Time.time + Random.Range(changeDirTime * 0.3f, changeDirTime * 1);
+            }
+            else
+            {
+                if (Random.Range(0, 2) == 1)
+                {
+                    movingRight = !movingRight;
+                    movement.Flip();
+
+                }
+                modeManager.animator.SetBool("walking", true);
+                changeDirTimer = Time.time + Random.Range(changeDirTime * 0.3f, changeDirTime * 2);
+                chilling = false;
+            }
         }
     }
 
+    private void AvoidWall()
+    {
+        Vector2 endPoint = eyePoint.position + Vector3.right * 1 * movement.currentXDir;
+        RaycastHit2D hit = Physics2D.Linecast(eyePoint.position, endPoint, groundLayer);
+        if (hit.collider != null)
+        {
+            movingRight = !movingRight;
+            movement.Flip();
+        }
+    }
     private void SpotTarget()
     {
-        Vector2 endPoint = eyePoint.position + Vector3.left * viewRange;
+        Vector2 endPoint = eyePoint.position + Vector3.right * viewRange * movement.currentXDir;
         RaycastHit2D hit = Physics2D.Linecast(eyePoint.position, endPoint, targetLayer);
         if (hit.collider != null)
         {
@@ -55,11 +84,15 @@ public class EnemyPatrol : AbstractMode
             enemyAngry.SetTarget(hit.collider.transform);
             modeManager.PushMode(enemyAngry);
         }
-    }
-    void Flip()
-    {
-        Vector3 scaler = transform.localScale;
-        scaler.x *= -1;
-        transform.localScale = scaler;
+        else
+        {
+            hit = Physics2D.Linecast(eyePoint.position, endPoint - new Vector2(0, 2), targetLayer);
+            if (hit.collider != null)
+            {
+                modeManager.animator.SetBool("walking", false);
+                enemyAngry.SetTarget(hit.collider.transform);
+                modeManager.PushMode(enemyAngry);
+            }
+        }
     }
 }
